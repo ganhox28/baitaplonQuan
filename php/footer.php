@@ -5,10 +5,10 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./"><img src="img/logo.png" alt=""></a>
+                            <a href="./"><img src="img/logo.png" alt=""> </a>
                         </div>
                         <ul>
-                            <li><p style="font-size: 17px;">Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh</p></p></li>
+                            <li><p style="font-size: 17px;">Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh</p></li>
                             <li><p style="font-size: 17px;">Số điện thoại: 0797079308</p></li>
                             <li><p style="font-size: 17px;">Email: nguyenquocanhquan69@gmail.com<p style="font-size: 17px;"></p></li>
                         </ul>
