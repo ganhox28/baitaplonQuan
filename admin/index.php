@@ -19,13 +19,13 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td><a href="./admin/quanlydonhang.php">Quản lý đơn hàng</a></td>
+                        <td><a href="./quanlydonhang.php">Quản lý đơn hàng</a></td>
                       </tr>
                       <tr>
-                        <td><a href="./admin/quanlyuser.php">Quản lý khách hàng</a></td>
+                        <td><a href="./quanlyuser.php">Quản lý khách hàng</a></td>
                       </tr>
                       <tr>
-                        <td><a href="./admin/themsanpham.php">Thêm sản phẩm</a></td>
+                        <td><a href="./themsanpham.php">Thêm sản phẩm</a></td>
                       </tr>
                     </tbody>
                   </table>
