@@ -64,7 +64,7 @@
                                 <div class="checkout__order__subtotal">Phụ Phí: <span>0 VNĐ</span></div>
                                 <div class="checkout__order__total">Thành Tiền: <span>150000 VNĐ</span></div> -->
                                 <div class="checkout__order__products">Sản phẩm <span>Tổng</span></div>
-                                    <ul style="height: 4em;">
+                                    <ul>
                                         <?php
                                             $tong = 0;
                                             if(!empty($_SESSION['giohang'])) {
@@ -74,8 +74,15 @@
                                                 foreach ($products as $item) { // truy cập từng phần tử gg để biết them foreach as
                                                     $thanhtien = $item['gia'] * $item['soluong'];
                                                     $tong += $thanhtien;
-                                                    echo('
-                                                        <li>'.$item['tensp'].'<span>'.number_format($thanhtien).'</span></li>  
+                                                    echo ('
+                                                        <li>
+                                                            <table style="border-bottom: 1px solid #ccc;">
+                                                                <tr>
+                                                                    <th>'.$item['tensp'].'/<th>
+                                                                    <th><span>'.number_format($thanhtien).'</span></th>
+                                                                </tr>
+                                                            </table>
+                                                        </li>
                                                     ');
                                                 } // phần này giông php thôi gọi giá trị array
                                             }
@@ -88,7 +95,7 @@
                                 <button type="submit" class="site-btn" style="font-family: serif;" name="btn">ĐẶT HÀNG</button>
                                 
                                 <?php
-                                    if(isset($_POST['btn'])){
+                                    if(isset($_POST['btn'])) {
                                         $hoten = $_REQUEST['hoten'];
                                         $diachi = $_REQUEST['diachi'];
                                         $sdt = $_REQUEST['sdt'];
@@ -98,7 +105,7 @@
                                                 alert ("Vui lòng nhập đầy đủ các trường");
                                             </script>');
                                         }
-                                        else{
+                                        else {
                                             $p->themxoasua("insert into orders(customer_id, tenkhachhang, ngaydat, diachi, tongtien, trangthai) 
                                                             values ('$customer_id', '$hoten', CURDATE(), '$diachi', '$tong', 'Đang xử lý')");
                                             $result = mysqli_query($p->connect(), "select max(order_id) from orders where customer_id = '$customer_id' and tongtien = '$tong'");    
