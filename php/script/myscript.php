@@ -151,7 +151,7 @@ class quan
 								</ul>
 							</div>
 							<div class="featured__item__text">
-								<h6><a href="shop-details.php?idsp='.$row['product_id'].'">'.$row['tensanpham'].'</a></h6>
+								<h6 style="height: 4em;"><a href="shop-details.php?idsp='.$row['product_id'].'">'.$row['tensanpham'].'</a></h6>
 								<h5>'.number_format($row['gia']).' VNĐ</h5>
 							</div>
 						</div>
