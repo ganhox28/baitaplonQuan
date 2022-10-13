@@ -24,7 +24,7 @@
                     <div class="contact__widget">
                         <span class="icon_phone"></span>
                         <h4>Số Điện Thoại</h4>
-                        <p>0989900197</p>
+                        <p>0797079308</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
@@ -45,7 +45,7 @@
                     <div class="contact__widget">
                         <span class="icon_mail_alt"></span>
                         <h4>Email</h4>
-                        <p>hiennhan081299@gmail.com</p>
+                        <p>nguyenquocanhquan69@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
             <div class="inside-widget">
                 <h4>Hồ Chí Minh</h4>
                 <ul>
-                    <li>Số Điện Thoại: 0989900197</li>
+                    <li>Số Điện Thoại: 0797079308</li>
                     <li>Địa Chỉ: 12 Nguyễn Văn Bảo, P.4, Q.Gò Vấp, TP.Hồ Chí Minh</li>
                 </ul>
             </div>
