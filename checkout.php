@@ -78,7 +78,7 @@
                                                         <li>
                                                             <table style="border-bottom: 1px solid #ccc;">
                                                                 <tr>
-                                                                    <th>'.$item['tensp'].'/<th>
+                                                                    <th>'.$item['tensp'].'</th>
                                                                     <th><span>'.number_format($thanhtien).'</span></th>
                                                                 </tr>
                                                             </table>
