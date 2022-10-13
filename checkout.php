@@ -64,7 +64,7 @@
                                 <div class="checkout__order__subtotal">Phụ Phí: <span>0 VNĐ</span></div>
                                 <div class="checkout__order__total">Thành Tiền: <span>150000 VNĐ</span></div> -->
                                 <div class="checkout__order__products">Sản phẩm <span>Tổng</span></div>
-                                    <ul>
+                                    <ul style="height: 4em;">
                                         <?php
                                             $tong = 0;
                                             if(!empty($_SESSION['giohang'])) {
