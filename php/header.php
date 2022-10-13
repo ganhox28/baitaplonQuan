@@ -78,7 +78,7 @@
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li><a href="./index.php">Trang chủ</a></li>
+                <li><a href="./">Trang chủ</a></li>
                 <li><a href="./shop-grid.php">Cửa hàng</a></li>
                 <li><a href="./shoping-cart.php">Giỏ hàng</a></li>
                 <li><a href="./contact.php">Liên hệ</a></li>
@@ -164,7 +164,7 @@
                 <div class="col-lg-6">
                     <nav class="header__menu">
                     <ul>
-                        <li><a href="./index.php">Trang chủ</a></li>
+                        <li><a href="./">Trang chủ</a></li>
                         <li><a href="./shop-grid.php">Cửa hàng</a></li>
                         <li><a href="./shoping-cart.php">Giỏ hàng</a></li>
                         <li><a href="./contact.php">Liên hệ</a></li>
